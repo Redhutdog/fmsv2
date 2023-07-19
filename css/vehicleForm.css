@@ -24,6 +24,9 @@ button, optgroup, select {
 input {
     padding: .6575rem .75rem !important;
 }
+input.form-control, select.form-select, textarea.form-control {
+    border: 2px solid #ced4da !important;
+}
 label {
     position: relative;
     font-weight: 500;
